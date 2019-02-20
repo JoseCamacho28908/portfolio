@@ -144,7 +144,16 @@ h1 {
 
 }
 
-button {
+.left{
+    background-image: url("http://www.coltnews.com/wp-content/uploads/2016/04/RPS.png");
+    background-repeat:no-repeat;
+    width:50%;
+    height:250px;
+    background-size: 100% 100%;
+    border:2px solid black;
+    }
+    
+.buttonLeft{
     padding: 10px 32px;
     text-align: center;
     text-decoration: none;
@@ -154,11 +163,31 @@ button {
     background-color: yellow;
     color: black;
     border: 2px solid white;
-    margin-top: 1px
-
-}
-
-
-.rightButton{
-    margin-top: 100px
-}
+    margin-top:5px;
+    }
+    
+.right{
+     background-image: url("https://i.pinimg.com/originals/9b/05/85/9b0585ab9fb39c3ac3a6bccdd2019c3a.jpg");
+    background-repeat:no-repeat;
+    width:50%;
+    
+    height:250px;
+    background-size: 100% 100%;
+    border:2px solid black;
+    float:right;
+    margin-top:-300px;
+    }
+    
+.buttonRight{
+      padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    background-color: yellow;
+    color: black;
+    border: 2px solid white;
+    margin-top:-45px;
+    float:right;
+        }
