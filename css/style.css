@@ -144,34 +144,36 @@ h1 {
 
 }
 
-.left{
-    border:2px dashed green;
-    width:49%;
-    height:550px;
-    top:10px;
-    }
-    
-.right{
-    border: 2px dashed blue;
-    width:49%;
-    height:600px;
-   float:right;
-    }
-    
-.projectOne{
-    height:50%;
-     border: 2px dashed blue;
-    }    
-    
-.Oneimage{
+.left {
+
+    width: 49%;
+    height: 550px;
+    top: 10px;
+}
+
+.right {
+
+    width: 49%;
+    height: 600px;
+    top: 10px;
+    float: right;
+}
+
+.projectOne {
+    height: 50%;
+
+}
+
+.Oneimage {
     background-image: url("http://www.coltnews.com/wp-content/uploads/2016/04/RPS.png");
-    background-repeat:no-repeat;
-    width:490px;
-    height:210px;
+    background-repeat: no-repeat;
+    width: 490px;
+    height: 210px;
     background-size: 100% 100%;
-    border:2px solid black;
-    }
-.buttonLeft{
+    border: 2px solid black;
+}
+
+.buttonLeft {
     padding: 10px 32px;
     text-align: center;
     text-decoration: none;
@@ -181,14 +183,31 @@ h1 {
     background-color: yellow;
     color: black;
     border: 2px solid white;
-    }
+}
 
-.Twoimage{
+.Twoimage {
     background-image: url("https://developer.spotify.com/assets/playlistview.png");
     background-repeat: no-repeat;
-    width:490px;
-    height:210px;
+    width: 490px;
+    height: 210px;
     background-size: 100% 100%;
     border: 2px solid black;
-    }    
-    
+}
+
+.Threeimage {
+    background-image: url("https://i.pinimg.com/originals/9b/05/85/9b0585ab9fb39c3ac3a6bccdd2019c3a.jpg");
+    background-repeat: no-repeat;
+    width: 490px;
+    height: 210px;
+    background-size: 100% 100%;
+    border: 2px solid black;
+}
+
+.Fourimage {
+    background-image: url("https://studybreaks.com/wp-content/uploads/2018/05/buzzfeed-feature-image.jpg");
+    background-repeat: no-repeat;
+    width: 490px;
+    height: 215px;
+    background-size: 100% 100%;
+    border: 2px solid black;
+}
